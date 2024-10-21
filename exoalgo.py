@@ -1,4 +1,4 @@
-# Phrased'entrée
+# Phrase d'entrée
 phrase = "Bonjour je m'appelle ndeye fatou."
 
 # Initialiser les compteurs
@@ -9,18 +9,18 @@ nombre_voyelles = 0
 # Définir les voyelles
 voyelles = "aeiouAEIOU"
 
-# Parcourir chaque caractère de la phrase
-for i in range(len(phrase) - 1):  # On ne compte pas le dernier point
+# on parcourir chaque caractère de la phrase
+for i in range(len(phrase) - 1):  # le point n'en fait pas parti!
     caractere = phrase[i]
 
-    # Incrémenter le compteur de caractères
+    # on incrémenter le compteur des caractères!
     long_mot += 1
 
-    # Vérifier si le caractère est une voyelle
+    # On vérifier si le caractère est une voyelle!
     if caractere in voyelles:
         nombre_voyelles += 1
 
-    # Vérifier si le caractère est un espace 
+    # On vérifier si le caractère est un espace !
     if caractere == ' ':
         nbre_mots += 1
 
